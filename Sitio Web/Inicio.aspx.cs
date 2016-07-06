@@ -105,8 +105,6 @@ public partial class Inicio : System.Web.UI.Page
         else
         {
             errAcceso.Text = "hala";
-
-            // la validación en jscript evita que se llegue a este punto
         }
     }
 
