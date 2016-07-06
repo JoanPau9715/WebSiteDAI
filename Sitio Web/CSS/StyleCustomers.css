@@ -1,0 +1,361 @@
+﻿body 
+{
+    font-family: 'ms sans Serif';
+    font-size: 12pt;        
+}
+
+.BotoneraCli
+{
+    position:absolute;
+    left:340px;
+    top:40px;
+}
+
+.chkbd
+{
+    padding-left:20px;
+}
+
+.titular
+{
+    font-family: 'ms sans Serif';
+    margin-top:0px;
+}
+
+.panelBusquedas
+{
+    position:absolute;
+    margin-left:4px;
+    margin-top:-584px;
+    height:640px;    
+}
+
+.panelSolicitudes
+{
+    position:absolute;
+    margin-left:4px;
+    margin-top:-600px;
+    height:640px;    
+}
+
+.panelClisOn
+{
+    font-family: 'ms sans Serif';
+    font-size: 12pt;    
+    margin-left:4px;
+    margin-top:64px;
+    height:640px;
+}
+
+.panelMensajes
+{
+    font-family: 'ms sans Serif';
+    font-size: 12pt;    
+    margin-left:4px;
+    margin-top:64px;
+    height:370px;
+}
+
+
+.labels
+{    
+    margin-left:20px;
+    margin-top:20px;
+    margin-right:20px;
+}
+
+.labels2
+{
+    font-family: 'ms sans Serif';
+    font-size: 12pt;            
+    color: Black;
+    float: left;
+    width: 100px;
+    text-align: left;
+    padding-left: 20px;
+    padding-right: 10px;
+}
+
+.labelTipoBD
+{
+    display:none;
+    font-family: 'ms sans Serif';
+    font-size: 12pt;            
+    color: Black;
+    float: left;
+    width: 100px;
+    text-align: left;
+    padding-left: 20px;
+    padding-right: 10px;
+}
+
+.txtCli
+{
+    font-family: 'ms sans Serif';
+    font-size: 11pt;            
+    height:70px;
+    width: 240px;
+    border-width: thin;
+    background-color: #f7f9fa;  
+}
+
+.txtmensaje
+{
+    font-family: 'ms sans Serif';
+    font-size: 11pt;            
+    height:140px;
+    width: 240px;
+    border-width: thin;
+    background-color: #f7f9fa;  
+}
+
+.txtCli:focus
+{
+    background-color:#fff;
+}
+
+.txtmensaje:focus
+{
+    background-color:#fff;
+}
+
+
+.dropdownCli
+{
+    font-family: 'ms sans Serif';
+    font-size: 11pt;            
+    width: 240px;
+    border-width: thin;
+    background-color: #f7f9fa;
+}
+
+.dropdownCli:focus
+{
+    background-color:#fff;
+}
+
+.txtBoxPro
+{
+    font-family: 'ms sans Serif';
+    font-size: 11pt;            
+    width: 240px;
+    border-width: thin;
+    background-color: #f7f9fa;   
+}
+
+.txtBoxPro:focus
+{
+    background-color:#fff;
+}
+
+.listBoxPro
+{
+    display:none;    
+    position:absolute;
+    margin-left:414px;
+    margin-top:-610px;
+    font-family: 'ms sans Serif';
+    font-size: 11pt;            
+    width: 180px;
+    height:110px;
+    border-width: thin;
+    background-color: #f7f9fa;        
+}
+
+.listBoxPro:focus
+{
+    background-color:#fff;
+}
+
+
+.dropdownTipoBD
+{
+    display:none;
+    font-family: 'ms sans Serif';
+    font-size: 11pt;            
+    width: 240px;
+    border-width: thin;
+    background-color: #f7f9fa;
+}
+
+.dropdownTipoBD:focus
+{
+    background-color:#fff;
+}
+
+
+.preloader
+{
+    visibility: hidden;
+    position: absolute;
+    margin-left: 270px;
+    margin-top: 60px;    
+}
+
+.preloadercli
+{
+    visibility: hidden;
+    position: absolute;
+    margin-left: 560px;
+    margin-top: 310px; 
+    padding-top:10px;   
+}
+
+.enviado
+{
+    display:none;
+    position: absolute;
+    margin-left: 140px;
+    margin-top: -300px;        
+}
+
+.preloaderpro
+{
+    visibility:hidden;    
+    position: absolute;
+    margin-left: 640px;
+    margin-top: 380px;    
+}
+
+.Botonpedido
+{
+    position:absolute;
+    border-width:thin;
+    border-style:outset;
+    cursor:pointer;
+    margin-top:-470px;
+    margin-left:440px;
+    width:140px;
+    height:24px;    
+}
+
+.Botonenvio
+{
+    position:absolute;
+    border-width:thin;
+    border-style:outset;
+    cursor:pointer;
+    margin-top:-470px;
+    margin-left:440px;
+    width:100px;
+    height:24px;    
+}
+
+.tablaSolicitudes
+{
+    border: thin solid #000000;
+    background-color: #FFFFFF;
+}
+
+.tablaCarpeta
+{
+    border: thin none #000000;
+    background-color: #FFFFFF;
+}
+
+.cellcarpeta
+{
+    border: thin none #000000;
+    background-color: #FFFFFF; 
+    border-bottom: thin solid #000;   
+}
+
+.spancarpeta
+{
+    padding-left:80px;
+    margin-left:80px;
+}
+
+.cells
+{
+    border: thin solid #000000;
+    padding: 10px 10px 10px 10px;
+}
+
+.cellcab
+{
+    border: thin solid #000000;
+    padding: 10px 10px 10px 10px;
+    font-weight:bold;
+    text-align:center;
+}
+
+.celltipo
+{
+    cursor:pointer;
+    border: thin solid #000000;
+    padding: 10px 10px 10px 10px;
+}
+
+
+.celltiposel
+{
+    cursor: pointer;
+    border: thin solid #e5e7ea;
+    padding: 10px 10px 10px 10px;
+    background-color:#e5e7ea;
+}
+
+
+.Infopanel
+{
+    display: none;
+    position:absolute;
+    margin-left:40px;
+    margin-top:-400px;
+}
+
+.Infolabel
+{
+    display: none;    
+    position:absolute;
+    width: 220px;
+    margin-left:60px;
+    margin-top:-380px;
+}
+
+.links
+{
+    color:#000;
+    margin-left: 12px;
+    font-size:14pt;
+}
+
+.linksel
+{
+    color: #fed57d;
+    background-color: #000;
+    margin-left: 12px;
+    font-size: 14pt;
+}
+
+
+.labelNum
+{
+    margin-left:20px;
+}
+
+.labelPosicion
+{
+    text-align:center;
+    position:absolute;
+    font-family: 'ms sans Serif';
+    font-size: 11pt;            
+    font-weight:bold;
+    margin-left:10px;
+    margin-right:10px;
+    margin-top:6px;    
+}
+
+.labelTabla
+{
+    font-family: 'ms sans Serif';
+    font-size: 11pt;            
+    margin: 10px 10px 10px 10px;
+}
+
+.etqError
+{
+    visibility:hidden;
+    font-weight:bold;
+}

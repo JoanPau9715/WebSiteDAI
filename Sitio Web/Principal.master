@@ -1,0 +1,82 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Principal.master.cs" Inherits="Principal" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <script src="menu.js" type="text/javascript"></script>
+    <script src="JS/JScript.js" type="text/javascript"></script>
+    <script src="JS/Ajax.js" type="text/javascript"></script>
+    
+    <link href="CSS/StyleSheet.css" rel="stylesheet" type="text/css" />
+    <link href="CSS/StyleCustomers.css" rel="stylesheet" type="text/css" />
+    <link href="CSS/StyleProgrammers.css" rel="stylesheet" type="text/css" /> 
+    
+    <link href="menustyle.css" rel="stylesheet" type="text/css" />    
+
+    <title>Comunicación y tecnología</title>
+    <asp:ContentPlaceHolder id="HeadPlace" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body id="BodyTag" runat="server">   
+    <form id="form1" runat="server">
+        <img src="images/logokailua.jpg" alt="" />
+        <span ID="lblCustomer" runat="server" class="etqBienvenida"></span>                        
+        <img id="irCarpetaCli" title="ir a mi carpeta" visible="false" src="images/room.png" class="carpeta" alt="" runat="server" onclick="irAmicarpetaCli()" />
+        <img id="irCarpetaPro" title="ir a mi carpeta" visible="false" src="images/room.png" class="carpeta" alt="" runat="server" onclick="irAmicarpetaPro()" />        
+        <img id="irInicio" title="desconectar" visible="false" src="images/fileclose.gif" class="inicio" alt="" runat="server" onclick="irAinicio()" />
+        <img id="doc" title="." src="images/doc.png" class="docs" alt="" />        
+        <div id="divmenu" class="divmenu">
+            <ul class="menu" id="menu">
+	            <li id="menuK" runat="server"><a href="javascript:void(0)" class="menulink">Kailua</a>
+		            <ul>
+			            <li><a href="Inicio.aspx">Inicio</a></li>
+			            <li>
+				            <a href="javascript:void(0)" class="sub">Registro</a>
+				            <ul>
+					            <li class="topline"><a href="registrocli.aspx">Cliente</a></li>
+					            <li><a href="registropro.aspx">Programador</a></li>
+				            </ul>
+			            </li>
+		            </ul>
+	            </li>
+	            <li id="menuSoftwareCli" runat="server" visible="false">
+		            <a href="javascript:void(0)" id="asoftwarecli" class="menulink">Software</a>
+		            <ul>
+					    <li><a href="zonaclisoftdemanda.aspx">Solicitar nuevo software</a></li>
+					    <li><a href="zonaclimissolicitudes.aspx">Ver mis solicitudes</a></li>			            
+			            <li><a href="zonacliofertas.aspx">Ver mis ofertas</a></li>			            			            
+		            </ul>
+	            </li>
+	            <li id="menuSoftwarePro" runat="server" visible="false">
+		            <a href="javascript:void(0)" id="asoftwarepro" class="menulink">Software</a>
+		            <ul>
+					    <li><a href="zonaprosoftoferta.aspx">Ofertar nuevo software</a></li>
+					    <li><a href="zonapromisofertas.aspx">Ver mis ofertas</a></li>			            
+			            <li><a href="zonaprosolicitudes.aspx">Ver mis solicitudes</a></li>			            			            
+		            </ul>
+	            </li>	            
+	            <li id="mensajes" runat="server" visible="false">
+		            <a href="javascript:void(0)" id="amensaje" class="menulink">Mensajes</a>
+		            <ul>
+			            <li><a href="zonamensajesrecibidos.aspx">Bandeja de entrada</a></li>			            		            
+			            <li><a href="zonaenviomensajes.aspx">Redactar</a></li>			            
+		            </ul>
+	            </li>	            
+	            <li><a href="laempresa.aspx" class="menulink">La Empresa</a></li>
+	            <li><a href="contacto.aspx" class="menulink">Contacto</a></li>	            	            
+            </ul>
+        </div>        
+        <div>
+            <asp:ContentPlaceHolder id="BodyPlace" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    <script type="text/javascript">
+        var menu = new menu.dd("menu");
+        menu.init("menu", "menuhover");
+        mostrarMenu();
+    </script>        
+    <script src="JS/jquery-1.4.4.min.js" type="text/javascript"></script>            
+    </form>
+</body>
+</html>

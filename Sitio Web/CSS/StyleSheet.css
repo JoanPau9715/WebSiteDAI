@@ -1,0 +1,355 @@
+﻿body 
+{
+    font-family: 'ms sans Serif';
+    font-size: 12pt;
+    background-color:#fff;
+}
+
+.divmenu
+{
+    visibility:hidden;
+}
+
+.etqBienvenida
+{
+    position:absolute;
+    margin-top:24px;
+    margin-left:-10px;
+    font-weight:bold;
+    font-size:14px;
+}
+
+.carpeta
+{
+    position:absolute;
+    margin-top:50px;
+    margin-left:-16px;
+    cursor:pointer;
+}
+
+.inicio
+{
+    position:absolute;
+    margin-top:50px;
+    margin-left:40px;    
+    cursor:pointer;    
+}
+
+.docs
+{
+    position:absolute;
+    margin-top:50px;
+    display:none;
+    margin-left:86px;    
+    cursor:pointer;    
+}
+
+.BarraLogo
+{
+    position: relative;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.logo
+{
+    position:relative;
+    margin-top:11px;
+}
+
+.BarraMenu
+{
+    position: relative;
+    margin-left: 20px;
+    margin-top: 20px;
+    
+}
+
+.BodyPlace
+{
+    position: relative;
+    margin-left: 10px;
+    margin-top: 40px;
+    height: 100%;
+}
+
+.CuadroAcceso
+{
+    font-family: 'ms sans Serif';
+    position: absolute;
+    margin-left: 0px;
+    margin-top: 140px;
+}
+
+.Etiquetas
+{
+    color: Black;
+    float: left;
+    width: 100px;
+    text-align: left;
+    padding-left: 20px;
+    padding-right: 10px;
+}
+
+.lblExp
+{
+    color: Black;
+    float: left;
+    text-align: left;
+    padding-left: 20px;
+    padding-right: 4px;
+}
+
+.Expers
+{
+    margin-left:20px;
+}
+
+.EtiquetaRecordar
+{
+    color: Black;
+    float: left;
+    width: 200px;
+    text-align: left;
+    padding-top:20px;
+    padding-left: 20px;
+    padding-right: 140px;
+}
+
+.EtiquetaError
+{
+    font-weight:bold;
+}
+
+.Edits
+{
+    width: 170px;
+    border-width: thin;
+    background-color: #f7f9fa;
+}
+
+.Edits:focus
+{
+    background-color:#fff;
+}
+
+.DDListSector
+{
+    width: 170px;
+    border-width: thin;
+    background-color: #f7f9fa;    
+}
+
+.DDListSector:focus
+{
+    background-color:#fff;
+}
+
+.DDList
+{
+    width: 160px;
+    border-width: thin;
+    cursor:pointer;
+    background-color: #f7f9fa;    
+    position: relative;
+    margin-left: 20px;
+    margin-top: 20px;    
+    font-family: 'ms sans Serif';
+    font-size: 12pt;    
+}
+
+.DDList:focus
+{
+    background-color:#fff;    
+}
+
+
+.TextoBienvenida
+{
+    float: left;
+    position: relative;
+    margin-left: 20px;
+    margin-top: 20px;
+    font-family: 'ms sans Serif';
+}
+
+.EtqLogo
+{
+    font-family: 'ms sans Serif';
+    position:absolute;
+    margin-top:40px;
+    padding-left:20px;
+}
+
+.MenuItem
+{
+    margin-left: 20px;
+    font-family: 'ms sans Serif';
+}
+
+.Botones
+{
+    border-width:thin;
+    border-style:outset;
+    cursor:pointer;
+    margin-bottom:10px;
+    margin-top:22px;
+    margin-left:60px;
+    width:100px;
+    height:24px;
+}
+
+.Botones2
+{
+    position:absolute;
+    margin-top:70px;
+    margin-left:420px;
+    border-width:thin;
+    border-style:outset;
+    cursor:pointer;
+    width:100px;
+    height:24px;
+}
+
+.Botones3
+{
+    border-width:thin;
+    border-style:outset;
+    cursor:pointer;
+    margin-bottom:20px;
+    width:100px;
+    height:24px;
+}
+
+.Botones4
+{
+    border-width:thin;
+    border-style:outset;
+    cursor:pointer;
+    margin-bottom:10px;
+    margin-top:22px;
+    margin-left:160px;
+    width:100px;
+    height:24px;
+}
+
+.Buttons
+{
+    margin-left:26px;
+    margin-top:18px;
+    margin-bottom:26px;
+    margin-right:26px;
+}
+
+.panelBienvenida
+{
+    visibility: hidden;    
+    font-family: 'ms sans Serif';
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 380px;    
+}
+
+.navs
+{
+    padding: 0px 10px 0px 10px;
+    cursor:pointer;
+}
+
+
+.navsnext
+{
+    padding: 0px 10px 0px 200px;
+    cursor:pointer;
+}
+
+.filaedit
+{
+    font-family: 'ms sans Serif';
+    font-size: 11pt;        
+    font-weight:lighter;
+    display:none;
+    border: thin solid #e5e7ea;
+    padding: 10px 10px 10px 10px; 
+    background-color: #e5e7ea;       
+}
+
+.viewmensaje
+{
+    font-family: 'ms sans Serif';
+    font-size: 11pt;        
+    font-weight:lighter;
+    display:none;
+    border: thin solid #e5e7ea;
+    padding: 10px 10px 10px 10px; 
+    background-color: #e5e7ea;       
+}
+
+.celledit
+{
+    border: thin solid #e5e7ea;
+    padding: 10px 10px 10px 10px;
+}
+
+.editlabel1
+{
+    font-size: 10pt;        
+    margin-left:-60px;
+    margin-top:-3px;
+}
+
+.editlabel2
+{
+    font-size: 10pt;        
+    margin-left:-10px;
+    margin-top:-3px;
+}
+
+.editcombo
+{
+    margin-left:-40px;
+    margin-top:-10px;
+}
+
+.editarea
+{
+    font-family: 'ms sans Serif';
+    font-size: 11pt;    
+    margin-left:0px;
+    margin-top:10px; 
+    height:80px;   
+}
+
+.viewarea
+{
+    font-family: 'ms sans Serif';
+    font-size: 10pt;    
+    margin-left:0px;
+    margin-top:10px; 
+    height:210px;   
+    width:240px;
+}
+
+.editbotonok
+{
+    border-width:thin;
+    border-style:outset;
+    cursor:pointer;    
+    width:100px;
+}
+
+
+.mensajetxt
+{
+    position:absolute;
+    margin-left:300px;
+    margin-top:-584px;
+}
+
+
+.globo
+{
+    position:absolute;
+    cursor:pointer;
+}
+

@@ -1,0 +1,1 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="verOfertasACli.aspx.cs" Inherits="ASPX_verOfertasACli" %>

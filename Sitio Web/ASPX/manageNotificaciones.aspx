@@ -1,0 +1,1 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="manageNotificaciones.aspx.cs" Inherits="ASPX_manageNotificaciones" %>
